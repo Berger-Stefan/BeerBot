@@ -15,11 +15,11 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(custom_interfaces REQUIRED)
 
-add_executable(templateServo src/TemplateServo.cpp)
-ament_target_dependencies(templateServo rclcpp custom_interfaces)
+add_executable(ServoTemplate src/ServoTemplate.cpp)
+ament_target_dependencies(ServoTemplate rclcpp custom_interfaces)
 
 install(TARGETS
-  templateServo
+  ServoTemplate
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
