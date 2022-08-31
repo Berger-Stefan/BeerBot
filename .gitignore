@@ -1,5 +1,7 @@
 ros2_code/devel/
 ros2_code/logs/
+ros2_code/log/
+ros2_code/install/
 ros2_code/build/
 ros2_code/bin/
 ros2_code/lib/
