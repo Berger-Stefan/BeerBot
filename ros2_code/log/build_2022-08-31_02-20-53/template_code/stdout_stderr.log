@@ -1,0 +1,29 @@
+[35m[1mScanning dependencies of target templateServo[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/templateServo.dir/src/TemplateServo.cpp.o[0m
+[01m[K/home/stefan/projectsLinux/BeerBot/ros2_code/src/template_code/src/TemplateServo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/stefan/projectsLinux/BeerBot/ros2_code/src/template_code/src/TemplateServo.cpp:32:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   32 | int main([01;35m[Kint argc[m[K, char * argv[])
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/stefan/projectsLinux/BeerBot/ros2_code/src/template_code/src/TemplateServo.cpp:32:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   32 | int main(int argc, [01;35m[Kchar * argv[][m[K)
+      |                    [01;35m[K~~~~~~~^~~~~~[m[K
+[100%] [32m[1mLinking CXX executable templateServo[0m
+[100%] Built target templateServo
+-- Install configuration: ""
+-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/lib/template_code/templateServo
+-- Set runtime path of "/home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/lib/template_code/templateServo" to ""
+-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/ament_index/resource_index/package_run_dependencies/template_code
+-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/ament_index/resource_index/parent_prefix_path/template_code
+-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/environment/ament_prefix_path.sh
+-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/environment/ament_prefix_path.dsv
+-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/environment/path.sh
+-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/environment/path.dsv
+-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/local_setup.bash
+-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/local_setup.sh
+-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/local_setup.zsh
+-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/local_setup.dsv
+-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/package.dsv
+-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/ament_index/resource_index/packages/template_code
+-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/cmake/template_codeConfig.cmake
+-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/cmake/template_codeConfig-version.cmake
+-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/package.xml

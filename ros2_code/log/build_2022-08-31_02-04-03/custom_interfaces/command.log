@@ -1,0 +1,1 @@
+Invoking command in '/home/stefan/projectsLinux/BeerBot/ros2_code/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stefan/ws/install/opencv_tests:/opt/ros/foxy /usr/bin/cmake /home/stefan/projectsLinux/BeerBot/ros2_code/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/stefan/projectsLinux/BeerBot/ros2_code/install/custom_interfaces

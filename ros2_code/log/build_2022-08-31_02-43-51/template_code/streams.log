@@ -1,0 +1,26 @@
+[0.017s] Invoking command in '/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code -- -j8 -l8
+[0.050s] [35m[1mScanning dependencies of target templateServo[0m
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/templateServo.dir/src/TemplateServo.cpp.o[0m
+[4.301s] [100%] [32m[1mLinking CXX executable templateServo[0m
+[4.546s] [100%] Built target templateServo
+[4.556s] Invoked command in '/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code -- -j8 -l8
+[4.585s] Invoking command in '/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code
+[4.591s] -- Install configuration: ""
+[4.591s] -- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/lib/template_code/templateServo
+[4.593s] -- Set runtime path of "/home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/lib/template_code/templateServo" to ""
+[4.593s] -- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/ament_index/resource_index/package_run_dependencies/template_code
+[4.594s] -- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/ament_index/resource_index/parent_prefix_path/template_code
+[4.594s] -- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/environment/ament_prefix_path.sh
+[4.594s] -- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/environment/ament_prefix_path.dsv
+[4.594s] -- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/environment/path.sh
+[4.594s] -- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/environment/path.dsv
+[4.594s] -- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/local_setup.bash
+[4.595s] -- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/local_setup.sh
+[4.595s] -- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/local_setup.zsh
+[4.595s] -- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/local_setup.dsv
+[4.596s] -- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/package.dsv
+[4.596s] -- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/ament_index/resource_index/packages/template_code
+[4.597s] -- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/cmake/template_codeConfig.cmake
+[4.599s] -- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/cmake/template_codeConfig-version.cmake
+[4.599s] -- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/package.xml
+[4.600s] Invoked command in '/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code

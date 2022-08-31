@@ -1,0 +1,4 @@
+[01m[K/home/stefan/projectsLinux/BeerBot/ros2_code/src/template_code/src/TemplateServo.cpp:[m[K In member function ‘[01m[Kvoid TemplateServo::topic_callback(custom_interfaces::msg::ServoData_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/stefan/projectsLinux/BeerBot/ros2_code/src/template_code/src/TemplateServo.cpp:22:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   22 |   void topic_callback([01;35m[Kconst custom_interfaces::msg::ServoData::SharedPtr msg[m[K) const
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

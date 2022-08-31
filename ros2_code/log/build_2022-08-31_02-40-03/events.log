@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.002091] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.002195] (template_code) JobQueued: {'identifier': 'template_code', 'dependencies': OrderedDict()}
+[0.002391] (template_code) JobStarted: {'identifier': 'template_code'}
+[0.012012] (template_code) JobProgress: {'identifier': 'template_code', 'progress': 'cmake'}
+[0.013704] (template_code) JobProgress: {'identifier': 'template_code', 'progress': 'build'}
+[0.013803] (template_code) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code', '--', '-j8', '-l8'], 'cwd': '/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code', 'env': OrderedDict([('USER', 'stefan'), ('WT_PROFILE_ID', '{2c4de342-38b7-51cf-b940-2309a097f518}'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/stefan/projectsLinux/BeerBot/ros2_code/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/stefan'), ('OLDPWD', '/home/stefan'), ('LESS', '-R'), ('ZSH', '/home/stefan/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/stefan/projectsLinux/BeerBot/ros2_code/install'), ('LOGNAME', 'stefan'), ('WSL_INTEROP', '/run/WSL/27847_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('NAME', 'StefanLaptop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/SWIG/swig:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/Stefan/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/Stefan/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/Stefan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Stefan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Stefan/AppData/Roaming/npm:/mnt/c/texlive/2021/bin/win32:/mnt/c/Users/Stefan/AppData/Local/Programs/Julia-1.7.1/bin'), ('WT_SESSION', '2aed61eb-c505-49dd-bf84-7024af849dea'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code:/home/stefan/projectsLinux/BeerBot/ros2_code/install/custom_interfaces:/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('P9K_SSH', '0'), ('PWD', '/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/home/stefan/projectsLinux/BeerBot/ros2_code/install/custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code:/home/stefan/projectsLinux/BeerBot/ros2_code/install/custom_interfaces:/opt/ros/foxy')]), 'shell': False}
+[0.036551] (template_code) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.054084] (template_code) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099392] (-) TimerEvent: {}
+[0.199781] (-) TimerEvent: {}
+[0.203758] (template_code) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.299948] (-) TimerEvent: {}
+[0.318436] (template_code) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.320807] (template_code) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.400105] (-) TimerEvent: {}
+[0.500592] (-) TimerEvent: {}
+[0.601082] (-) TimerEvent: {}
+[0.701582] (-) TimerEvent: {}
+[0.802078] (-) TimerEvent: {}
+[0.902563] (-) TimerEvent: {}
+[1.003050] (-) TimerEvent: {}
+[1.103605] (-) TimerEvent: {}
+[1.204114] (-) TimerEvent: {}
+[1.304638] (-) TimerEvent: {}
+[1.405139] (-) TimerEvent: {}
+[1.505611] (-) TimerEvent: {}
+[1.606126] (-) TimerEvent: {}
+[1.706606] (-) TimerEvent: {}
+[1.807076] (-) TimerEvent: {}
+[1.907554] (-) TimerEvent: {}
+[2.008028] (-) TimerEvent: {}
+[2.108513] (-) TimerEvent: {}
+[2.209011] (-) TimerEvent: {}
+[2.309490] (-) TimerEvent: {}
+[2.409969] (-) TimerEvent: {}
+[2.510461] (-) TimerEvent: {}
+[2.610947] (-) TimerEvent: {}
+[2.711435] (-) TimerEvent: {}
+[2.811950] (-) TimerEvent: {}
+[2.912449] (-) TimerEvent: {}
+[2.922761] (template_code) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.961383] (template_code) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.962256] (template_code) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.012612] (-) TimerEvent: {}
+[3.079288] (template_code) StdoutLine: {'line': b'-- Found custom_interfaces: 0.0.0 (/home/stefan/projectsLinux/BeerBot/ros2_code/install/custom_interfaces/share/custom_interfaces/cmake)\n'}
+[3.112781] (-) TimerEvent: {}
+[3.213301] (-) TimerEvent: {}
+[3.264178] (template_code) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.272260] (template_code) StdoutLine: {'line': b'-- Generating done\n'}
+[3.274031] (template_code) StdoutLine: {'line': b'-- Build files have been written to: /home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code\n'}
+[3.295480] (template_code) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target templateServo\x1b[0m\n'}
+[3.304025] (template_code) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/templateServo.dir/src/TemplateServo.cpp.o\x1b[0m\n'}
+[3.313460] (-) TimerEvent: {}
+[3.413975] (-) TimerEvent: {}
+[3.480742] (template_code) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stefan/projectsLinux/BeerBot/ros2_code/src/template_code/src/TemplateServo.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.481077] (template_code) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stefan/projectsLinux/BeerBot/ros2_code/src/template_code/src/TemplateServo.cpp:32:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.481336] (template_code) StderrLine: {'line': b'   32 | int main(\x1b[01;35m\x1b[Kint argc\x1b[m\x1b[K, char * argv[])\n'}
+[3.481475] (template_code) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[3.481534] (template_code) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stefan/projectsLinux/BeerBot/ros2_code/src/template_code/src/TemplateServo.cpp:32:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.481585] (template_code) StderrLine: {'line': b'   32 | int main(int argc, \x1b[01;35m\x1b[Kchar * argv[]\x1b[m\x1b[K)\n'}
+[3.481679] (template_code) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[3.514181] (-) TimerEvent: {}
+[3.514877] (template_code) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable templateServo\x1b[0m\n'}
+[3.597865] (template_code) StdoutLine: {'line': b'[100%] Built target templateServo\n'}
+[3.607965] (template_code) CommandEnded: {'returncode': 0}
+[3.614366] (-) TimerEvent: {}
+[3.624954] (template_code) JobProgress: {'identifier': 'template_code', 'progress': 'install'}
+[3.634102] (template_code) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code'], 'cwd': '/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code', 'env': OrderedDict([('USER', 'stefan'), ('WT_PROFILE_ID', '{2c4de342-38b7-51cf-b940-2309a097f518}'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/stefan/projectsLinux/BeerBot/ros2_code/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/stefan'), ('OLDPWD', '/home/stefan'), ('LESS', '-R'), ('ZSH', '/home/stefan/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/stefan/projectsLinux/BeerBot/ros2_code/install'), ('LOGNAME', 'stefan'), ('WSL_INTEROP', '/run/WSL/27847_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('NAME', 'StefanLaptop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/SWIG/swig:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/Stefan/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/Stefan/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/Stefan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Stefan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Stefan/AppData/Roaming/npm:/mnt/c/texlive/2021/bin/win32:/mnt/c/Users/Stefan/AppData/Local/Programs/Julia-1.7.1/bin'), ('WT_SESSION', '2aed61eb-c505-49dd-bf84-7024af849dea'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code:/home/stefan/projectsLinux/BeerBot/ros2_code/install/custom_interfaces:/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('P9K_SSH', '0'), ('PWD', '/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/home/stefan/projectsLinux/BeerBot/ros2_code/install/custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code:/home/stefan/projectsLinux/BeerBot/ros2_code/install/custom_interfaces:/opt/ros/foxy')]), 'shell': False}
+[3.640732] (template_code) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.641325] (template_code) StdoutLine: {'line': b'-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/lib/template_code/templateServo\n'}
+[3.641649] (template_code) StdoutLine: {'line': b'-- Set runtime path of "/home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/lib/template_code/templateServo" to ""\n'}
+[3.642122] (template_code) StdoutLine: {'line': b'-- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/ament_index/resource_index/package_run_dependencies/template_code\n'}
+[3.642252] (template_code) StdoutLine: {'line': b'-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/ament_index/resource_index/parent_prefix_path/template_code\n'}
+[3.642427] (template_code) StdoutLine: {'line': b'-- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/environment/ament_prefix_path.sh\n'}
+[3.642524] (template_code) StdoutLine: {'line': b'-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/environment/ament_prefix_path.dsv\n'}
+[3.642744] (template_code) StdoutLine: {'line': b'-- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/environment/path.sh\n'}
+[3.642868] (template_code) StdoutLine: {'line': b'-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/environment/path.dsv\n'}
+[3.642955] (template_code) StdoutLine: {'line': b'-- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/local_setup.bash\n'}
+[3.643074] (template_code) StdoutLine: {'line': b'-- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/local_setup.sh\n'}
+[3.643176] (template_code) StdoutLine: {'line': b'-- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/local_setup.zsh\n'}
+[3.643293] (template_code) StdoutLine: {'line': b'-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/local_setup.dsv\n'}
+[3.643381] (template_code) StdoutLine: {'line': b'-- Installing: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/package.dsv\n'}
+[3.643473] (template_code) StdoutLine: {'line': b'-- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/ament_index/resource_index/packages/template_code\n'}
+[3.644491] (template_code) StdoutLine: {'line': b'-- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/cmake/template_codeConfig.cmake\n'}
+[3.645256] (template_code) StdoutLine: {'line': b'-- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/cmake/template_codeConfig-version.cmake\n'}
+[3.645952] (template_code) StdoutLine: {'line': b'-- Up-to-date: /home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code/share/template_code/package.xml\n'}
+[3.647222] (template_code) CommandEnded: {'returncode': 0}
+[3.689178] (template_code) JobEnded: {'identifier': 'template_code', 'rc': 0}
+[3.690340] (-) EventReactorShutdown: {}

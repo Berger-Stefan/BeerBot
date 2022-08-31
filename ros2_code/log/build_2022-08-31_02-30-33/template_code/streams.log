@@ -1,0 +1,22 @@
+[0.026s] Invoking command in '/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code -- -j8 -l8
+[0.047s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.066s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.221s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.339s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.341s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.000s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.041s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.042s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.162s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.170s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:40 (message):
+[2.170s]   rosidl_target_interfaces() the second argument 'template_code' must be a
+[2.170s]   valid target name
+[2.171s] Call Stack (most recent call first):
+[2.171s]   CMakeLists.txt:31 (rosidl_target_interfaces)
+[2.171s] 
+[2.171s] 
+[2.171s] -- Configuring incomplete, errors occurred!
+[2.171s] See also "/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code/CMakeFiles/CMakeOutput.log".
+[2.171s] See also "/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code/CMakeFiles/CMakeError.log".
+[2.176s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[2.181s] Invoked command in '/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code -- -j8 -l8

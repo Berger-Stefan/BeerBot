@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.001791] (template_code) JobQueued: {'identifier': 'template_code', 'dependencies': OrderedDict()}
+[0.001912] (template_code) JobStarted: {'identifier': 'template_code'}
+[0.017244] (template_code) JobProgress: {'identifier': 'template_code', 'progress': 'cmake'}
+[0.017703] (template_code) Command: {'cmd': ['/usr/bin/cmake', '/home/stefan/projectsLinux/BeerBot/ros2_code/src/template_code', '-DCMAKE_INSTALL_PREFIX=/home/stefan/projectsLinux/BeerBot/ros2_code/install/template_code'], 'cwd': '/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code', 'env': OrderedDict([('USER', 'stefan'), ('GIT_ASKPASS', '/home/stefan/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/extensions/git/dist/askpass.sh'), ('WT_PROFILE_ID', '{2c4de342-38b7-51cf-b940-2309a097f518}'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/stefan/projectsLinux/BeerBot/install/template_code/lib:/home/stefan/projectsLinux/ROS_start/install/turtlesim/lib:/home/stefan/ws/install/image_transport/lib:/home/stefan/ws/install/image_geometry/lib:/home/stefan/ws/install/gazebo_msgs/lib:/home/stefan/ws/install/cv_bridge/lib:/home/stefan/ws/install/camera_info_manager/lib:/home/stefan/ws/install/camera_calibration_parsers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/stefan'), ('OLDPWD', '/home/stefan/projectsLinux/BeerBot'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.70.2'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-5e674698-f283-46fd-8b79-7896cff1717a.sock'), ('ZSH', '/home/stefan/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/stefan/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/stefan/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/stefan/projectsLinux/BeerBot/install:/home/stefan/projectsLinux/ROS_start/install:/home/stefan/ws/install'), ('LOGNAME', 'stefan'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('NAME', 'Code'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/stefan/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/SWIG/swig:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/Stefan/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/Stefan/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/Stefan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Stefan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Stefan/AppData/Roaming/npm:/mnt/c/texlive/2021/bin/win32:/mnt/c/Users/Stefan/AppData/Local/Programs/Julia-1.7.1/bin'), ('WT_SESSION', 'dac68944-1aa5-4298-bef0-10e05dae2a4b'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-6ba3ddca8d.sock'), ('AMENT_PREFIX_PATH', '/home/stefan/projectsLinux/BeerBot/install/template_code:/home/stefan/projectsLinux/ROS_start/install/cpp_pubsub:/home/stefan/projectsLinux/ROS_start/install/turtlesim:/home/stefan/ws/install/vision_opencv:/home/stefan/ws/install/opencv_tests:/home/stefan/ws/install/image_common:/home/stefan/ws/install/image_transport:/home/stefan/ws/install/image_geometry:/home/stefan/ws/install/gazebo_msgs:/home/stefan/ws/install/gazebo_dev:/home/stefan/ws/install/cv_bridge:/home/stefan/ws/install/camera_info_manager:/home/stefan/ws/install/camera_calibration_parsers:/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code'), ('_P9K_TTY', '/dev/pts/6'), ('ZDOTDIR', '/home/stefan'), ('PYTHONPATH', '/home/stefan/projectsLinux/BeerBot/install/template_code/lib/python3.8/site-packages:/home/stefan/projectsLinux/ROS_start/install/turtlesim/lib/python3.8/site-packages:/home/stefan/ws/build/opencv_tests:/home/stefan/ws/install/opencv_tests/lib/python3.8/site-packages:/home/stefan/ws/install/image_geometry/lib/python3.8/site-packages:/home/stefan/ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/stefan/ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/home/stefan/projectsLinux/BeerBot/install/template_code:/home/stefan/projectsLinux/ROS_start/install/cpp_pubsub:/home/stefan/projectsLinux/ROS_start/install/turtlesim:/home/stefan/ws/install/vision_opencv:/home/stefan/ws/install/image_common:/home/stefan/ws/install/image_transport:/home/stefan/ws/install/image_geometry:/home/stefan/ws/install/gazebo_msgs:/home/stefan/ws/install/gazebo_dev:/home/stefan/ws/install/cv_bridge:/home/stefan/ws/install/camera_info_manager:/home/stefan/ws/install/camera_calibration_parsers:/home/stefan/ws/install/opencv_tests:/opt/ros/foxy')]), 'shell': False}
+[0.098847] (-) TimerEvent: {}
+[0.133179] (template_code) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.198992] (-) TimerEvent: {}
+[0.288740] (template_code) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.299159] (-) TimerEvent: {}
+[0.351896] (template_code) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.399327] (-) TimerEvent: {}
+[0.457810] (template_code) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.458573] (template_code) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.499463] (-) TimerEvent: {}
+[0.566882] (template_code) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.577272] (template_code) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.577852] (template_code) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.579583] (template_code) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.599638] (-) TimerEvent: {}
+[0.693305] (template_code) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.694112] (template_code) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.699748] (-) TimerEvent: {}
+[0.799817] (template_code) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.800260] (-) TimerEvent: {}
+[0.809531] (template_code) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.809998] (template_code) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.812152] (template_code) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.837843] (template_code) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.838216] (template_code) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.900418] (-) TimerEvent: {}
+[1.000831] (-) TimerEvent: {}
+[1.015261] (template_code) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.100990] (-) TimerEvent: {}
+[1.144197] (template_code) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.149954] (template_code) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.201150] (-) TimerEvent: {}
+[1.301660] (-) TimerEvent: {}
+[1.402177] (-) TimerEvent: {}
+[1.502598] (-) TimerEvent: {}
+[1.603197] (-) TimerEvent: {}
+[1.703778] (-) TimerEvent: {}
+[1.796334] (template_code) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.803939] (-) TimerEvent: {}
+[1.904665] (-) TimerEvent: {}
+[2.005275] (-) TimerEvent: {}
+[2.105894] (-) TimerEvent: {}
+[2.206491] (-) TimerEvent: {}
+[2.307094] (-) TimerEvent: {}
+[2.407713] (-) TimerEvent: {}
+[2.435326] (template_code) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.507945] (-) TimerEvent: {}
+[2.608562] (-) TimerEvent: {}
+[2.709185] (-) TimerEvent: {}
+[2.809759] (-) TimerEvent: {}
+[2.910503] (-) TimerEvent: {}
+[3.011070] (-) TimerEvent: {}
+[3.111617] (-) TimerEvent: {}
+[3.212299] (-) TimerEvent: {}
+[3.312911] (-) TimerEvent: {}
+[3.413578] (-) TimerEvent: {}
+[3.514220] (-) TimerEvent: {}
+[3.600332] (template_code) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.614380] (-) TimerEvent: {}
+[3.649162] (template_code) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.651194] (template_code) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.652163] (template_code) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.714543] (-) TimerEvent: {}
+[3.760143] (template_code) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.760714] (template_code) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.814655] (-) TimerEvent: {}
+[3.863380] (template_code) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.863622] (template_code) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.914811] (-) TimerEvent: {}
+[3.952534] (template_code) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.952823] (template_code) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.014960] (-) TimerEvent: {}
+[4.056818] (template_code) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.057683] (template_code) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.115132] (-) TimerEvent: {}
+[4.188606] (template_code) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[4.215376] (-) TimerEvent: {}
+[4.219789] (template_code) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[4.315655] (-) TimerEvent: {}
+[4.361866] (template_code) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[4.415799] (-) TimerEvent: {}
+[4.516251] (-) TimerEvent: {}
+[4.616865] (-) TimerEvent: {}
+[4.717469] (-) TimerEvent: {}
+[4.818161] (-) TimerEvent: {}
+[4.918760] (-) TimerEvent: {}
+[5.019466] (-) TimerEvent: {}
+[5.120070] (-) TimerEvent: {}
+[5.220690] (-) TimerEvent: {}
+[5.321280] (-) TimerEvent: {}
+[5.421811] (-) TimerEvent: {}
+[5.522264] (-) TimerEvent: {}
+[5.622693] (-) TimerEvent: {}
+[5.723287] (-) TimerEvent: {}
+[5.823861] (-) TimerEvent: {}
+[5.924445] (-) TimerEvent: {}
+[6.025097] (-) TimerEvent: {}
+[6.125722] (-) TimerEvent: {}
+[6.226313] (-) TimerEvent: {}
+[6.326837] (-) TimerEvent: {}
+[6.427451] (-) TimerEvent: {}
+[6.528120] (-) TimerEvent: {}
+[6.571989] (template_code) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.579047] (template_code) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.602439] (template_code) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[6.604736] (template_code) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[6.628331] (-) TimerEvent: {}
+[6.728948] (-) TimerEvent: {}
+[6.821824] (template_code) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[6.822486] (template_code) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.822732] (template_code) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[6.822793] (template_code) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[6.829399] (-) TimerEvent: {}
+[6.845076] (template_code) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.910038] (template_code) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.929544] (-) TimerEvent: {}
+[6.941825] (template_code) StdoutLine: {'line': b'-- Generating done\n'}
+[6.944748] (template_code) StdoutLine: {'line': b'-- Build files have been written to: /home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code\n'}
+[6.955711] (template_code) CommandEnded: {'returncode': 0}
+[6.959589] (template_code) JobProgress: {'identifier': 'template_code', 'progress': 'build'}
+[6.960112] (template_code) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code', '--', '-j8', '-l8'], 'cwd': '/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code', 'env': OrderedDict([('USER', 'stefan'), ('GIT_ASKPASS', '/home/stefan/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/extensions/git/dist/askpass.sh'), ('WT_PROFILE_ID', '{2c4de342-38b7-51cf-b940-2309a097f518}'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/stefan/projectsLinux/BeerBot/install/template_code/lib:/home/stefan/projectsLinux/ROS_start/install/turtlesim/lib:/home/stefan/ws/install/image_transport/lib:/home/stefan/ws/install/image_geometry/lib:/home/stefan/ws/install/gazebo_msgs/lib:/home/stefan/ws/install/cv_bridge/lib:/home/stefan/ws/install/camera_info_manager/lib:/home/stefan/ws/install/camera_calibration_parsers/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/stefan'), ('OLDPWD', '/home/stefan/projectsLinux/BeerBot'), ('LESS', '-R'), ('TERM_PROGRAM_VERSION', '1.70.2'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-5e674698-f283-46fd-8b79-7896cff1717a.sock'), ('ZSH', '/home/stefan/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/stefan/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/stefan/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/stefan/projectsLinux/BeerBot/install:/home/stefan/projectsLinux/ROS_start/install:/home/stefan/ws/install'), ('LOGNAME', 'stefan'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('NAME', 'Code'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/stefan/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/SWIG/swig:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/Stefan/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/Stefan/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/Stefan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Stefan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Stefan/AppData/Roaming/npm:/mnt/c/texlive/2021/bin/win32:/mnt/c/Users/Stefan/AppData/Local/Programs/Julia-1.7.1/bin'), ('WT_SESSION', 'dac68944-1aa5-4298-bef0-10e05dae2a4b'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('VSCODE_INJECTION', '1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-6ba3ddca8d.sock'), ('AMENT_PREFIX_PATH', '/home/stefan/projectsLinux/BeerBot/install/template_code:/home/stefan/projectsLinux/ROS_start/install/cpp_pubsub:/home/stefan/projectsLinux/ROS_start/install/turtlesim:/home/stefan/ws/install/vision_opencv:/home/stefan/ws/install/opencv_tests:/home/stefan/ws/install/image_common:/home/stefan/ws/install/image_transport:/home/stefan/ws/install/image_geometry:/home/stefan/ws/install/gazebo_msgs:/home/stefan/ws/install/gazebo_dev:/home/stefan/ws/install/cv_bridge:/home/stefan/ws/install/camera_info_manager:/home/stefan/ws/install/camera_calibration_parsers:/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('P9K_SSH', '0'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code'), ('_P9K_TTY', '/dev/pts/6'), ('ZDOTDIR', '/home/stefan'), ('PYTHONPATH', '/home/stefan/projectsLinux/BeerBot/install/template_code/lib/python3.8/site-packages:/home/stefan/projectsLinux/ROS_start/install/turtlesim/lib/python3.8/site-packages:/home/stefan/ws/build/opencv_tests:/home/stefan/ws/install/opencv_tests/lib/python3.8/site-packages:/home/stefan/ws/install/image_geometry/lib/python3.8/site-packages:/home/stefan/ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/stefan/ws/install/cv_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/home/stefan/projectsLinux/BeerBot/install/template_code:/home/stefan/projectsLinux/ROS_start/install/cpp_pubsub:/home/stefan/projectsLinux/ROS_start/install/turtlesim:/home/stefan/ws/install/vision_opencv:/home/stefan/ws/install/image_common:/home/stefan/ws/install/image_transport:/home/stefan/ws/install/image_geometry:/home/stefan/ws/install/gazebo_msgs:/home/stefan/ws/install/gazebo_dev:/home/stefan/ws/install/cv_bridge:/home/stefan/ws/install/camera_info_manager:/home/stefan/ws/install/camera_calibration_parsers:/home/stefan/ws/install/opencv_tests:/opt/ros/foxy')]), 'shell': False}
+[6.992449] (template_code) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.993024] (template_code) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target template_code__cpp\x1b[0m\n'}
+[6.993251] (template_code) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target templateServo\x1b[0m\n'}
+[7.001383] (template_code) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.001598] (template_code) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/templateServo.dir/src/TemplateServo.cpp.o\x1b[0m\n'}
+[7.007548] (template_code) StderrLine: {'line': b'\x1b[01m\x1b[K/home/stefan/projectsLinux/BeerBot/ros2_code/src/template_code/src/TemplateServo.cpp:4:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktemplate_code/msg/servo_data.hpp: No such file or directory\n'}
+[7.007988] (template_code) StderrLine: {'line': b'    4 | #include \x1b[01;31m\x1b[K"template_code/msg/servo_data.hpp"\x1b[m\x1b[K\n'}
+[7.008227] (template_code) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.008429] (template_code) StderrLine: {'line': b'compilation terminated.\n'}
+[7.008866] (template_code) StderrLine: {'line': b'make[2]: *** [CMakeFiles/templateServo.dir/build.make:63: CMakeFiles/templateServo.dir/src/TemplateServo.cpp.o] Error 1\n'}
+[7.009144] (template_code) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:445: CMakeFiles/templateServo.dir/all] Error 2\n'}
+[7.009267] (template_code) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[7.029701] (-) TimerEvent: {}
+[7.130251] (-) TimerEvent: {}
+[7.192801] (template_code) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target template_code__rosidl_generator_c\x1b[0m\n'}
+[7.196971] (template_code) StdoutLine: {'line': b'[  9%] Built target template_code__cpp\n'}
+[7.202040] (template_code) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/template_code__rosidl_generator_c.dir/rosidl_generator_c/template_code/msg/detail/servo_data__functions.c.o\x1b[0m\n'}
+[7.229547] (template_code) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking C shared library libtemplate_code__rosidl_generator_c.so\x1b[0m\n'}
+[7.230392] (-) TimerEvent: {}
+[7.304843] (template_code) StdoutLine: {'line': b'[ 15%] Built target template_code__rosidl_generator_c\n'}
+[7.305697] (template_code) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[7.309318] (template_code) CommandEnded: {'returncode': 2}
+[7.330556] (-) TimerEvent: {}
+[7.369486] (template_code) JobEnded: {'identifier': 'template_code', 'rc': 2}
+[7.371158] (-) EventReactorShutdown: {}

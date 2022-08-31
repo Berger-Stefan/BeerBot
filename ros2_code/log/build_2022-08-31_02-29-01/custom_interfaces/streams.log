@@ -1,0 +1,37 @@
+[0.027s] Invoking command in '/home/stefan/projectsLinux/BeerBot/ros2_code/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/stefan/projectsLinux/BeerBot/ros2_code/build/custom_interfaces -- -j8 -l8
+[0.048s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.066s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.066s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.228s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.351s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.354s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.748s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.789s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.789s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.914s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.939s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.076s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[5.423s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.430s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.449s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[5.450s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[5.469s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.469s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.469s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[5.486s] -- Configuring done
+[5.514s] -- Generating done
+[5.519s] -- Build files have been written to: /home/stefan/projectsLinux/BeerBot/ros2_code/build/custom_interfaces
+[5.553s] [  9%] Built target custom_interfaces__cpp
+[5.553s] [ 12%] Built target custom_interfaces__rosidl_generator_c
+[5.571s] [ 38%] Built target custom_interfaces__rosidl_typesupport_c
+[5.571s] [ 41%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[5.571s] [ 41%] Built target custom_interfaces__rosidl_typesupport_cpp
+[5.572s] [ 51%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[5.575s] [ 61%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.595s] [ 70%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[5.611s] [ 70%] Built target custom_interfaces
+[5.627s] [ 74%] Built target custom_interfaces__py
+[5.649s] [ 80%] Built target custom_interfaces__python
+[5.670s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[5.671s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.671s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext

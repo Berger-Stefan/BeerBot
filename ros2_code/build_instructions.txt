@@ -1,0 +1,16 @@
+# create pakage with :
+ros2 pkg create --build-type ament_cmake --node-name my_node my_package
+
+
+# resolve dependencies
+rosdep install -i --from-path src --rosdistro foxy -y
+
+
+# build packages inside src folder with:
+colcon build
+
+# set workspace to local:
+. install/setup.zsh
+or
+. install/setup.bash
+

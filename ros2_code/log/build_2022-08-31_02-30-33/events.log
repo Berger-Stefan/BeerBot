@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.000733] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.001176] (template_code) JobQueued: {'identifier': 'template_code', 'dependencies': OrderedDict()}
+[0.002235] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.017464] (template_code) JobStarted: {'identifier': 'template_code'}
+[0.028087] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.029237] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[0.030930] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/stefan/projectsLinux/BeerBot/ros2_code/build/custom_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/stefan/projectsLinux/BeerBot/ros2_code/build/custom_interfaces', 'env': OrderedDict([('USER', 'stefan'), ('WT_PROFILE_ID', '{2c4de342-38b7-51cf-b940-2309a097f518}'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/stefan/projectsLinux/BeerBot/ros2_code/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/stefan'), ('OLDPWD', '/home/stefan'), ('LESS', '-R'), ('ZSH', '/home/stefan/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/stefan/projectsLinux/BeerBot/ros2_code/install'), ('LOGNAME', 'stefan'), ('WSL_INTEROP', '/run/WSL/24038_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('NAME', 'StefanLaptop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/SWIG/swig:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/Stefan/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/Stefan/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/Stefan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Stefan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Stefan/AppData/Roaming/npm:/mnt/c/texlive/2021/bin/win32:/mnt/c/Users/Stefan/AppData/Local/Programs/Julia-1.7.1/bin'), ('WT_SESSION', '8036f993-174f-44d4-99a1-01816d3d7237'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/stefan/projectsLinux/BeerBot/ros2_code/install/custom_interfaces:/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('P9K_SSH', '0'), ('PWD', '/home/stefan/projectsLinux/BeerBot/ros2_code/build/custom_interfaces'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/home/stefan/projectsLinux/BeerBot/ros2_code/install/custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/home/stefan/projectsLinux/BeerBot/ros2_code/install/custom_interfaces:/opt/ros/foxy')]), 'shell': False}
+[0.038851] (template_code) JobProgress: {'identifier': 'template_code', 'progress': 'cmake'}
+[0.041626] (template_code) JobProgress: {'identifier': 'template_code', 'progress': 'build'}
+[0.041825] (template_code) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code', '--', '-j8', '-l8'], 'cwd': '/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code', 'env': OrderedDict([('USER', 'stefan'), ('WT_PROFILE_ID', '{2c4de342-38b7-51cf-b940-2309a097f518}'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/stefan/projectsLinux/BeerBot/ros2_code/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/stefan'), ('OLDPWD', '/home/stefan'), ('LESS', '-R'), ('ZSH', '/home/stefan/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('P9K_TTY', 'old'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/stefan/projectsLinux/BeerBot/ros2_code/install'), ('LOGNAME', 'stefan'), ('WSL_INTEROP', '/run/WSL/24038_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('NAME', 'StefanLaptop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/SWIG/swig:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/Stefan/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/Stefan/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/Stefan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Stefan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Stefan/AppData/Roaming/npm:/mnt/c/texlive/2021/bin/win32:/mnt/c/Users/Stefan/AppData/Local/Programs/Julia-1.7.1/bin'), ('WT_SESSION', '8036f993-174f-44d4-99a1-01816d3d7237'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/stefan/projectsLinux/BeerBot/ros2_code/install/custom_interfaces:/opt/ros/foxy'), ('SHELL', '/usr/bin/zsh'), ('P9K_SSH', '0'), ('PWD', '/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code'), ('_P9K_TTY', '/dev/pts/0'), ('PYTHONPATH', '/home/stefan/projectsLinux/BeerBot/ros2_code/install/custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/home/stefan/projectsLinux/BeerBot/ros2_code/install/custom_interfaces:/opt/ros/foxy')]), 'shell': False}
+[0.056477] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.064387] (template_code) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.076691] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.077041] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.084068] (template_code) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099474] (-) TimerEvent: {}
+[0.200010] (-) TimerEvent: {}
+[0.228160] (custom_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.238388] (template_code) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.300196] (-) TimerEvent: {}
+[0.351816] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.354354] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.356372] (template_code) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.359160] (template_code) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.400393] (-) TimerEvent: {}
+[0.501053] (-) TimerEvent: {}
+[0.601730] (-) TimerEvent: {}
+[0.702257] (-) TimerEvent: {}
+[0.802842] (-) TimerEvent: {}
+[0.903386] (-) TimerEvent: {}
+[1.003945] (-) TimerEvent: {}
+[1.104469] (-) TimerEvent: {}
+[1.204979] (-) TimerEvent: {}
+[1.305511] (-) TimerEvent: {}
+[1.406083] (-) TimerEvent: {}
+[1.506669] (-) TimerEvent: {}
+[1.607119] (-) TimerEvent: {}
+[1.707498] (-) TimerEvent: {}
+[1.808033] (-) TimerEvent: {}
+[1.908512] (-) TimerEvent: {}
+[2.008990] (-) TimerEvent: {}
+[2.017863] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.018092] (template_code) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.058251] (template_code) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.059305] (template_code) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.059807] (custom_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.060729] (custom_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.109211] (-) TimerEvent: {}
+[2.179614] (template_code) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.181535] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.187297] (template_code) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:40 (message):\n'}
+[2.187697] (template_code) StderrLine: {'line': b"  rosidl_target_interfaces() the second argument 'template_code' must be a\n"}
+[2.188165] (template_code) StderrLine: {'line': b'  valid target name\n'}
+[2.188488] (template_code) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.188793] (template_code) StderrLine: {'line': b'  CMakeLists.txt:31 (rosidl_target_interfaces)\n'}
+[2.188918] (template_code) StderrLine: {'line': b'\n'}
+[2.189018] (template_code) StderrLine: {'line': b'\n'}
+[2.189132] (template_code) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.189228] (template_code) StdoutLine: {'line': b'See also "/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code/CMakeFiles/CMakeOutput.log".\n'}
+[2.189317] (template_code) StdoutLine: {'line': b'See also "/home/stefan/projectsLinux/BeerBot/ros2_code/build/template_code/CMakeFiles/CMakeError.log".\n'}
+[2.194066] (template_code) StderrLine: {'line': b'make: *** [Makefile:266: cmake_check_build_system] Error 1\n'}
+[2.196697] (template_code) CommandEnded: {'returncode': 2}
+[2.206055] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.209389] (-) TimerEvent: {}
+[2.230378] (template_code) JobEnded: {'identifier': 'template_code', 'rc': 2}
+[2.309522] (-) TimerEvent: {}
+[2.340331] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.409649] (-) TimerEvent: {}
+[2.509995] (-) TimerEvent: {}
+[2.610385] (-) TimerEvent: {}
+[2.710800] (-) TimerEvent: {}
+[2.811231] (-) TimerEvent: {}
+[2.911612] (-) TimerEvent: {}
+[3.012031] (-) TimerEvent: {}
+[3.112599] (-) TimerEvent: {}
+[3.212945] (-) TimerEvent: {}
+[3.313331] (-) TimerEvent: {}
+[3.413730] (-) TimerEvent: {}
+[3.514112] (-) TimerEvent: {}
+[3.614483] (-) TimerEvent: {}
+[3.715123] (-) TimerEvent: {}
+[3.815512] (-) TimerEvent: {}
+[3.915908] (-) TimerEvent: {}
+[4.016298] (-) TimerEvent: {}
+[4.116719] (-) TimerEvent: {}
+[4.217169] (-) TimerEvent: {}
+[4.317648] (-) TimerEvent: {}
+[4.418050] (-) TimerEvent: {}
+[4.518439] (-) TimerEvent: {}
+[4.618834] (-) TimerEvent: {}
+[4.698411] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.704332] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.718981] (-) TimerEvent: {}
+[4.722613] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[4.723323] (custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[4.740443] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.740734] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[4.740836] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[4.757072] (custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.782893] (custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.787393] (custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/stefan/projectsLinux/BeerBot/ros2_code/build/custom_interfaces\n'}
+[4.817962] (custom_interfaces) StdoutLine: {'line': b'[  3%] Built target custom_interfaces__cpp\n'}
+[4.819038] (custom_interfaces) StdoutLine: {'line': b'[ 12%] Built target custom_interfaces__rosidl_generator_c\n'}
+[4.819187] (-) TimerEvent: {}
+[4.835669] (custom_interfaces) StdoutLine: {'line': b'[ 51%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.836026] (custom_interfaces) StdoutLine: {'line': b'[ 48%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[4.836135] (custom_interfaces) StdoutLine: {'line': b'[ 51%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.836237] (custom_interfaces) StdoutLine: {'line': b'[ 51%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[4.839124] (custom_interfaces) StdoutLine: {'line': b'[ 61%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.860941] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[4.877148] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces\n'}
+[4.892947] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target custom_interfaces__py\n'}
+[4.913116] (custom_interfaces) StdoutLine: {'line': b'[ 80%] Built target custom_interfaces__python\n'}
+[4.919419] (-) TimerEvent: {}
+[4.932910] (custom_interfaces) StdoutLine: {'line': b'[ 93%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[4.933358] (custom_interfaces) StdoutLine: {'line': b'[ 93%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.933623] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[4.942010] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 'SIGINT'}
+[4.953807] (-) EventReactorShutdown: {}
