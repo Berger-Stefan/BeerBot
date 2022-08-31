@@ -17,7 +17,9 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
 
 set(msg_files
+  "msg/LedStatus.msg"
   "msg/ServoData.msg"
+  "msg/TargetLocation.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
@@ -27,5 +29,4 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 )
 
 ament_export_dependencies(rosidl_default_runtime)
-
 ament_package()

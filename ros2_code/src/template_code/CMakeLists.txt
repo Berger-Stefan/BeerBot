@@ -18,8 +18,16 @@ find_package(custom_interfaces REQUIRED)
 add_executable(ServoTemplate src/ServoTemplate.cpp)
 ament_target_dependencies(ServoTemplate rclcpp custom_interfaces)
 
+add_executable(Brain src/Brain.cpp)
+ament_target_dependencies(Brain rclcpp custom_interfaces)
+
+add_executable(StatusLed src/StatusLed.cpp)
+ament_target_dependencies(StatusLed rclcpp custom_interfaces)
+
 install(TARGETS
   ServoTemplate
+  Brain
+  StatusLed
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

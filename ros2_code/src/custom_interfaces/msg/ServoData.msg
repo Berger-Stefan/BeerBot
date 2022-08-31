@@ -1,1 +1,4 @@
-float64 position
+int32 servo_m1_pos
+int32 servo_m2_pos
+int32 servo_m3_pos
+int32 servo_m4_pos
