@@ -1,8 +1,0 @@
-CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:37 (message):
-  rosidl_target_interfaces() the first argument 'test_sensor_msgs' must be a
-  valid target name
-Call Stack (most recent call first):
-  CMakeLists.txt:25 (rosidl_target_interfaces)
-
-
-make: *** [Makefile:748: cmake_check_build_system] Error 1
